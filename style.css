@@ -1,23 +1,41 @@
+@font-face {
+    font-family: Playpen Sans;
+    src: url(fonts/PlaypenSans-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: "Playpen Sans";
+    color: #83a9c4;
+}
+
+
 body{
     background-color: #d0e3f2;
     padding: 20px;
 }
 
+
 ul{
+    margin: 30px;
     list-style-type: none;
     overflow: hidden;
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 
 ul li{
     float: left;
-    margin: 10px;
-    padding: 5px;
 }
 
 ul li a{
     display: block;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.container{
+    margin-top: 100px;
 }
 
 .title{
