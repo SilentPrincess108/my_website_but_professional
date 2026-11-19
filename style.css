@@ -1,0 +1,40 @@
+body{
+    background-color: #d0e3f2;
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+ul li a{
+    display: block;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+#info{
+    width: 600px;
+}
+
+#pfp{
+    height: 250px;
+    border-radius: 200px;
+}
+
